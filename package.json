@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
+    "start-dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -11,6 +13,10 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.3.1",
     "bulma": "^0.7.1",
+    "express": "^4.16.3",
     "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
   }
 }
